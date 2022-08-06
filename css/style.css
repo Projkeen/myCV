@@ -1,0 +1,237 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    /* padding: 100px 0; */
+    box-sizing: border-box;
+}
+
+ul, li{
+    margin-bottom: 10px;
+    padding: 0 20px;
+    font-size: 34px;
+    cursor:pointer;
+}
+
+p{
+    margin-bottom: 10px;
+    padding: 0 20px;
+    font-size: 34px;
+    transition:all .3s ease;
+    cursor:pointer;
+}
+
+p:hover{
+    color:#fff;
+    transition:all .3s ease;   
+    cursor:pointer; 
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3{
+    /* display: flex; */
+    text-transform: uppercase;
+    /* align-items: center;     */
+    /* gap:80px;  */
+    padding-top: 100px; 
+    margin-bottom: 50px;
+    padding-left: 250px;
+    font-size: 50px;
+    cursor:pointer;
+}
+
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* padding: 0 15px; */
+    /* ы */
+    /* min-height: 800px; */
+}
+
+.header{    
+    background-image: url(../image/sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1200px; 
+    background-position: center;
+    position: relative;
+}
+
+.header-top{
+    display: flex;
+    height: 300px;    
+    /* align-items: center; */
+    /* gap: 100px; */
+    position: relative;
+    padding:50px 0; 
+    justify-content: flex-end;
+}
+
+/* .header-logo{
+    display: flex;
+    width: 25%;
+    background-image: url(../image/6846797.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+    height: 200px;
+    margin-left: 50px;
+} */
+
+.header-logo{
+    display: flex; 
+    /* transform: translate(0px, 0px); */
+}
+
+.header-logo path{
+    transition:fill .3s ease;
+}
+
+.header-logo:hover path{
+    fill: #01eaff;
+    transition:fill .3s ease;
+}
+
+.header-info{
+    display: flex;    
+    width: 50%;    
+    /* min-height: 20%;         */
+    /* justify-content: flex-end;  */
+    
+    
+    margin-left: 100px;
+    /* margin-right: 150px; */
+    margin-top: 30px; 
+    position: relative;    
+}
+
+.header-name{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #262C27;
+    align-items: top; 
+    position: absolute;    
+}
+
+.contacts{
+    position: absolute;
+    top: 20%;
+    font-size: 28px;    
+}
+
+.tel{
+    padding: 10px 0;
+}
+.e-mail{
+    padding: 10px 0;
+}
+
+.userpic{
+    display: flex;
+    width: 35%;   
+    height: 100%;
+    /* border: 2px solid blue; */
+    background-image: url(../image/userpic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.header-navbar{
+    display: flex;
+    min-height: 100vh;
+    text-decoration: none;
+    gap:100px;
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+}
+
+.header-navbar a{
+    color: #262C27;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.header-navbar a:hover {
+    color: #01eaff;;
+    font-size: 55px;
+}
+
+.header-nav1{
+    position: absolute;
+    left: 145px;
+    top: 150px;
+}
+
+.header-nav2{
+    position: absolute;
+    right: 145px;
+    top: 250px;
+}
+
+.header-nav3{
+    position: absolute;
+    left: 145px;
+    top: 400px;
+}
+
+.info{
+    background-image: url(../image/main20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* margin-top: 120px; */
+    min-height: 100vh; 
+}
+
+.info-aboutme{
+    transition:all .3s ease;
+}
+.info-aboutme:hover{
+    color:#fff;
+    transition:all .3s ease;
+}
+
+/* .title{
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;    
+    gap:80px;  
+    padding-top: 100px; 
+    margin-bottom: 50px;
+    padding-left: 150px;
+} */
+
+/* .info-aboutme{
+    display: flex;
+    padding: 0 100px;
+}
+
+.study{
+    display: flex;
+    padding: 0 100px;
+} */
+
+.education{
+    background-image: url(../image/1618473634_26-funart_pro-p-oboi-fon-krasivaya-abstraktsiya-26.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;    
+    min-height: 100vh; 
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: rgb(115, 219, 238);
+}
