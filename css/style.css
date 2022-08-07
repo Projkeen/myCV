@@ -19,11 +19,11 @@ p{
     cursor:pointer;
 }
 
-p:hover{
+/* p:hover{
     color:#fff;
     transition:all .3s ease;   
     cursor:pointer; 
-}
+} */
 
 h2{
     font-size: 30px;
