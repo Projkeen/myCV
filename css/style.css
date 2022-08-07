@@ -193,13 +193,13 @@ h3{
     min-height: 100vh; 
 }
 
-.info-aboutme{
+/* .info-aboutme{
     transition:all .3s ease;
-}
-.info-aboutme:hover{
+} */
+/* .info-aboutme:hover{
     color:#fff;
     transition:all .3s ease;
-}
+} */
 
 /* .title{
     display: flex;
