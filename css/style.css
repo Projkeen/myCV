@@ -235,7 +235,37 @@ h3{
 }
 
 .footer{
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background: rgb(115, 219, 238);
 }
+
+.footer-content{
+    display: flex;
+    position: relative;    
+}
+
+.footer-logo{
+    display: flex; 
+    /* transform: translate(0px, 0px); */
+    /* justify-content:flex-start;   */
+    position: relative;
+    width: 15%;  
+}
+
+.footer-logo path{
+    transition:fill .3s ease;
+}
+
+.footer-logo:hover path{
+    fill: #01eaff;
+    transition:fill .3s ease;
+}
+
+.footer-text{
+    display: flex;
+    width: 85%;
+    text-align: center;    
+    padding: 50px 40px;
+}
+
